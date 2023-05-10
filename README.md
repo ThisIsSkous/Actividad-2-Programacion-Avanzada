@@ -1,4 +1,4 @@
-git clone [dirección del repositorio]
+git clone [https://github.com/ThisIsSkous/Actividad-2-Programacion-Avanzada]
 git branch
 
 git branch ramanueva
