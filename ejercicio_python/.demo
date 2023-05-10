@@ -1,18 +1,16 @@
 class Universidad:
-    def __init__(self, nombre, ubicacion, fundacion):
+    def __init__(self, nombre, ubicacion):
         self.nombre = nombre
         self.ubicacion = ubicacion
-        self.fundacion = fundacion
 
 class Carrera:
-    def __init__(self, nombre, duracion, universidad):
+    def __init__(self, nombre, universidad):
         self.nombre = nombre
-        self.duracion = duracion
         self.universidad = universidad
 
 # Ejemplo de uso
-mi_universidad = Universidad("Universidad ABC", "Ciudad XYZ", 1950)
-mi_carrera = Carrera("Ingeniería Informática", 5, mi_universidad)
+mi_universidad = Universidad("UTPL", "LOJA")
+mi_carrera = Carrera("Tranformacion Digital De Empresas", mi_universidad)
 
 # Acceder a los atributos
 print(mi_universidad.nombre)
