@@ -1,1 +1,15 @@
-# ae2-1bim-aa23
+git clone [dirección del repositorio]
+git branch
+
+git branch ramanueva
+git checkout ramanueva
+# agregar la solución en Python
+git add .
+git commit -m"agregar cambios en la rama nueva"
+git push --set-upstream origin ramanueva # solo en la primera ocasión
+
+git checkout main
+# agrego la solución en Java
+git add .
+git commit -m"agregar cambios en la rama main"
+git push
